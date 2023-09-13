@@ -1,0 +1,39 @@
+14.Demonstrate using instance/class variable in a java program by creating a simple public class.
+
+ 
+
+public class Studentsrecords  
+
+{  
+
+/* declaration of instance variables*/  
+
+public String name; //public instance  
+
+   public Studentsrecords(String sname)  
+
+   {  
+
+       name = sname;  
+
+   }
+
+   public void printstud()  
+
+   {  
+
+       System.out.println("Student Name: " + name );  
+
+   }
+
+   public static void main(String args[])  
+
+   {  
+
+       Studentsrecords s = new Studentsrecords("Monica");  
+
+       s.printstud();  
+
+   }  
+
+}  
