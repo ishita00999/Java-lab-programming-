@@ -1,0 +1,16 @@
+import java.io.FileWrite;
+class Main{
+    public static void main (String args[]){
+        String dat = "This is the data in the output File";
+        try{
+            FileWrite output =new FileWrite("a.txt");
+            output.write(data);
+            System.out.println("Data is written to the file");
+            System.out.println(array);
+            output.close();
+        }
+        catch(Exception e){
+            e.getStackTrace();
+        }
+    }
+}
